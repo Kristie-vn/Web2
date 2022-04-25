@@ -11765,22 +11765,11 @@ CREATE TABLE `product_type` (
 --
 
 INSERT INTO `product_type` (`id`, `category_id`, `name`, `thumnail`, `thumnail2`) VALUES
-(1, '40', 'iPhone', '', '0'),
-(2, '40', 'SAMSUNG', '', '0'),
-(3, '40', 'OPPO', '', '0'),
-(8, '40', 'ViVo', '', '0'),
-(9, '40', 'Xiaomi', '', '0'),
-(10, '40', 'Realme', '', '0'),
-(11, '41', 'iPad', '', '0'),
-(15, '41', 'SAMSUNG', '', '0'),
-(16, '41', 'Lenovo', '', '0'),
-(17, '41', 'Huawei', '', '0'),
-(19, '42', 'Sạc dự phòng', 'https://cdn.tgdd.vn/Category/57/5-Pinsa%CC%A3cdu%CC%9B%CC%A3pho%CC%80ng-120x120.png', 'https://cdn.tgdd.vn/2021/10/banner/pinsac-1200x150.png'),
-(20, '42', 'Tai nghe', 'https://cdn.tgdd.vn/Category/54/21-Tainghe-120x120.png', 'https://cdn.tgdd.vn/2021/10/banner/taignhe-1200x150.png'),
-(21, '42', 'Loa', 'https://cdn.tgdd.vn/Category/2162/22-Loa2-120x120.png', 'https://cdn.tgdd.vn/2021/10/banner/loa-1200x150.png'),
-(22, '42', 'Thiết bị mạng', 'https://cdn.tgdd.vn/Category/4727/16-Thie%CC%82%CC%81tbi%CC%A3ma%CC%A3ng-120x120.png', 'https://cdn.tgdd.vn/2021/10/banner/mang-1200x150.png'),
-(25, '42', 'Chuột ,bàn phím', 'https://cdn.tgdd.vn/Category/86/13-Chuo%CC%A3%CC%82tma%CC%81yti%CC%81nh-120x120.png', 'https://cdn.tgdd.vn/2021/10/banner/gaming-1200x150-1.png'),
-(50, '43', 'Máy cũ', '', '');
+(1, '40', 'Chanel', '', '0'),
+(2, '40', 'Chloe', '', '0'),
+(3, '40', 'D&G', '', '0'),
+(4, '40', 'Gucci', '', '0'),
+(8, '40', 'Dior', '', '0');
 
 -- --------------------------------------------------------
 
@@ -11816,7 +11805,7 @@ CREATE TABLE `rom` (
 --
 -- Đang đổ dữ liệu cho bảng `rom`
 --
-
+/*
 INSERT INTO `rom` (`id`, `product_id`, `rom_main`) VALUES
 (1, 0, '32GB'),
 (2, 0, '64GB'),
@@ -11865,7 +11854,7 @@ INSERT INTO `rom` (`id`, `product_id`, `rom_main`) VALUES
 (110, 195, '64GB'),
 (111, 196, '64GB'),
 (112, 198, '32GB');
-
+*/
 -- --------------------------------------------------------
 
 --
